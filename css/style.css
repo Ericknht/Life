@@ -1,0 +1,205 @@
+body{
+	background: white;
+	color: #4c4c4c;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 16px;
+	margin: 0;
+}
+
+h2{
+	font-size: 1.2em;
+}
+
+header{
+	background-color: rgba(17,194,184,1);
+	text-align: center;
+	padding: 0.2em;
+}
+
+header a figure, header h1{
+	display: inline-block;
+	/*vertical-align: center;*/
+}
+
+header h1{
+	color: white;
+	font-family: Harlow Solid Italic, Georgia, serif;
+	font-size: 2em;
+	font-weight: normal;
+	margin: 0;
+}
+
+header #atras{
+	float: left;
+	vertical-align: top;
+}
+
+nav{
+	background: #F5F5F5;
+	font-size: 0.9em;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 0 .5em 0 0;
+	vertical-align: top;
+}
+
+nav ul li a{
+	color: rgba(27,154,247,1);
+	display: block;
+	padding: 0.5em 0;
+}
+
+footer{
+	text-align: center;
+}
+
+footer h3{
+	border-bottom: 1px solid #4c4c4c;
+	font-size: 1.1em;
+	font-weight: normal;
+	margin: 0.2em 0 0.5em 0;
+}
+
+footer figure{
+	display: inline-block;
+}
+
+footer #diilabs{
+	margin: 0;
+	/*float: right;*/
+	/*Nose porque baja de la linea y no me funciona*/
+}
+
+footer #udec{
+	margin:  0 2em 0 0;
+	/*float: left;*/
+}
+footer #diilabs img{
+	height: 80px;
+}
+
+footer #udec img{
+	height: 80px;
+}
+
+#codbarra figure{
+	margin-top: 15%;
+}
+
+#codbarra figure a img{
+	width: 100%;
+}
+
+#datos article{
+	margin: auto;
+	text-align: center;
+}
+
+#datos article h2 span{
+	font-family: Harlow Solid Italic, Georgia, serif;
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+/*Favoritos*/
+
+#favoritos{
+	text-align: center;
+}
+
+#favoritos article form p{
+	margin: 0.3em 0 0 0;
+}
+
+/*Feed Nutricionista*/
+#feednutri article{
+	background: #c4c4c4;
+	border: 1px solid black;
+	padding: 1em;
+	text-align: center;
+}
+
+#feednutri article div{
+	border: 1px solid blue;
+	width: 65%;
+}
+
+#feednutri article div,
+#feednutri article figure
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#feednutri article figure{
+	border: 1px solid peru;
+	margin: 0 0.5em 0 0;
+}
+
+#feednutri article figure a img{
+	width: 100px;
+	float: left;
+	margin: 0;
+}
+
+#feednutri article h3, 
+#feednutri article h4{
+	font-size: 1em;
+	margin: 0;
+}
+
+#feednutri article p{
+	margin: 0;
+}
+
+#lista_compras{
+	text-align: center;
+}
+
+#lista_compras article ol{
+	display: inline-block;
+	margin: 0;
+}
+
+#lista_compras article ol li{
+	margin: 0.3em 0 0 0;
+	text-align: left;
+}
+
+#lista_compras article p{
+	font-size: 1.1em;
+	margin: 1em 0 0 0;
+}
+
+#producto article{
+	border: 1px solid blue;
+	text-align: center;
+}
+
+#producto article #producto_item{
+	display: inline-block;
+	margin: 0px;
+}
+
+#producto article #producto_item img{
+	height: 200px;
+}
+
+.boton{
+	background: #22BCE0;
+	border-radius: 0.2em;
+	color: white;
+	display: inline-block;
+	margin: 0.5em 0;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
